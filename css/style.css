@@ -16,6 +16,11 @@ body {
     margin: 0;
 }
 
+.night *{
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
 .container{
     width: 100%;
     max-width: 1240px;
@@ -146,45 +151,44 @@ body {
     color: rgba(53, 19, 97, 0.6);
 }
 
-.hero .primary {
+.primary {
     padding: 12px 16.77px 11px 17.23px;
+    display: inline-block;
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
     text-align: center;
     letter-spacing: 0.63px;
-    color: #fff;
-    background: #EB7B63;
-    border: 1.5px dashed #EB7B63;
+    color: #fff !important;
+    background: #EB7B63 !important;
+    border: 1.5px dashed #EB7B63 !important;
     border-radius: 10px;
     text-decoration: none;
 }
 
-.hero .secondary {
+.secondary {
     padding: 11px 17px 12px 17px;
+    display: inline-block;
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
     text-align: center;
     letter-spacing: 0.63px;
-    color: #351361;
-    border: 1.5px solid #351361;
+    color: #351361 !important;
+    background-color: #fff !important;
+    border: 1.5px solid #351361 !important;
     border-radius: 10px;
     text-decoration: none;
 }
 
 .link {
+    display: inline-block;
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
     text-align: center;
     letter-spacing: 0.63px;
-    color: #EB7B63;
+    color: #EB7B63 !important;
 }
 
 /* hero end */
-
-.night *{
-    color: #fff !important;
-    background-color: #000;
-}
